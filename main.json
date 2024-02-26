@@ -4,7 +4,17 @@
 		"langkah 1":"memilih pilihan new",
 		"langkah 2":"kemudian masukan nama(linuxserver),type(Linux) dan version(ubuntu64-bit)",
 		"langkah 3":"memilih ukuran memori (4046MB)",
-		"langkah 4"
+		"langkah 4":"memilih hard disk,(create a vitual hard disk now) kemudian create",
+		"langkah 5":"memilih hard disk file tipe(VDI(vitual dis image))",
+		"langkah 6":"memilih strage on physical hard disk(fixed size)",
+		"langkah 7":"memilih file location and size(10GB) dengan nama file linuxserver, creat dan selesai",
+		"langkah 8":"pilih setting pada vm yang telah kita buat dan pilih storage",
+		"langkah 9":"pada pilihan controler IDE masukan/tambahkan file ISO yang sudah kita siapkan",
+		"langkah 10":"masuk kedalam vm nya",
+		"langkah 11":"mengisi username dan password untuk akun vm",
+		"langkah 12":"atur base memori,prosesor dan hardisk",
+		"langkah 13":"pilij finish agar proses install dimulai",
+		"langkah 14":"instalasi selesai"
 	}
 	
 }
