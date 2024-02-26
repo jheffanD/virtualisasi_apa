@@ -1,3 +1,10 @@
 {
 	"Cek vbox":"Ada",
+	"install ubuntu server":{
+		"langkah 1":"memilih pilihan new",
+		"langkah 2":"kemudian masukan nama(linuxserver),type(Linux) dan version(ubuntu64-bit)",
+		"langkah 3":"memilih ukuran memori (4046MB)",
+		"langkah 4"
+	}
+	
 }
