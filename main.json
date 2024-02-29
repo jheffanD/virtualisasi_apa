@@ -15,6 +15,30 @@
 		"langkah 12":"atur base memori,prosesor dan hardisk",
 		"langkah 13":"pilij finish agar proses install dimulai",
 		"langkah 14":"instalasi selesai"
+	},
+	"cloning ubuntu server":{
+		"langkah 1":"pilih virtual yang telah kita install",
+		"langkah 2":"klik kanan dan pilih clone",
+		"langkah 3":"masukan nama baru untuk vm yang telah di clone",
+		"langkah 4":"pilih clone type dan clone",
+		"langkah 5":"clone berhasil"
+	},
+	"ganti username dan password dari clone ubuntu server":{
+		"langkah 1":"jalankan clone ubuntu server kemudian login",
+		"langkah 2":{
+			"ubah password":{
+				"langkah 1":"ketik passwd pada terminal",
+				"langkah 2":"masukan password yang sekarang",
+				"langkah 3":"masukan password yang baru",
+				"langkah 4":"masukan lagi password yang baru sebagai confirmasi",
+				"langkah 5":"password berhasil di ganti"
+			},
+			"ubah usernam":{
+				"langkah 1":"ketik pada terminal sudo usermod -l newusername oldusername dan enter",
+				"langkah 2":"username berhasil di ganti"
+			} 
+		}
 	}
+	
 	
 }
