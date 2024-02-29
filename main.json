@@ -36,9 +36,14 @@
 			"ubah usernam":{
 				"langkah 1":"ketik pada terminal sudo usermod -l newusername oldusername dan enter",
 				"langkah 2":"username berhasil di ganti"
-			} 
+			}
 		}
+	},
+	"akses etc pakai nama domain":{
+		"langkah 1":"test ping ke cloningan(berhasil)",
+		"langkah 2":"ketik nano /etc/hosts",
+		"langkah 3":"pada tampilan, tambahkan ip virtual clone beserta nama contoh '192.168.1.2 jeffan' kemudia simpan",
+		"langkah 4":"coba akses dengan ssh jeffan@jd1(milik cloningan)",
+		"langkah 5":"jika berhasil, pilih yes dan masukan password dari vm cloningan"
 	}
-	
-	
 }
