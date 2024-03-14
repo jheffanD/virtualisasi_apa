@@ -45,5 +45,20 @@
 		"langkah 3":"pada tampilan, tambahkan ip virtual clone beserta nama contoh '192.168.1.2 jeffan' kemudia simpan",
 		"langkah 4":"coba akses dengan ssh jeffan@jd1(milik cloningan)",
 		"langkah 5":"jika berhasil, pilih yes dan masukan password dari vm cloningan"
+	},
+	"menginstall database 'mysql' ":{
+		"langkah 1":"masuk ke vm yang akan di jadikan sebagai tempat database",
+		"langkah 2":"ketikan 'sudo apt-get update' berfungsi memperbaruhi daftar paket (package list) dari repo APT yang berada di ubuntunya",
+		"langkah 3":"setelah langkah 2 selesai, ketikan 'sudo apt-get install mysql server' berfungis unutk menginstall mysqlnya",
+		"langkah 4":"setelah selesai di install kita bisa megecek apakah sudah terinstall atau belum dengan cara 'sudo systemctl status mysql' jika sudah maka akan melihat pesan active",
+		"langkah 5":"jika statusnya active, kemudian kita bisa mencoba masuk ke mysql nya dengan cara 'sudo mysql -u root -p' jika berhasil maka kita akan berali",
+		"langkah 6":"jika ingin keluar ketikan saja 'exit' kemudian enter"
+	},
+	"menginstall webserver 'apache' ":{
+		"langkah 1":"masuk ke vm yang satunya dimana kita gunakan sebagai webservernya",
+		"langkah 2":"ketikan 'sudo apt-get update' berfungsi memperbaruhi daftar paket (package list) dari repo APT yang berada di ubuntunya",
+		"langkah 3":"setelah langkah 2 selesai, ketikan 'sudo apt-get install apache2' berfungis unutk menginstall apachenya",
+		"langkah 4":"setelah selesai di install kita bisa megecek apakah sudah terinstall atau belum dengan cara 'sudo systemctl status apache2' jika sudah maka akan melihat pesan active",
+		"langkah 5":"untuk mengakses apache, buka browser web dan ketikan ip server atau nama domainnya yang telah kita konfigurasi"
 	}
 }
