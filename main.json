@@ -60,5 +60,16 @@
 		"langkah 3":"setelah langkah 2 selesai, ketikan 'sudo apt-get install apache2' berfungis unutk menginstall apachenya",
 		"langkah 4":"setelah selesai di install kita bisa megecek apakah sudah terinstall atau belum dengan cara 'sudo systemctl status apache2' jika sudah maka akan melihat pesan active",
 		"langkah 5":"untuk mengakses apache, buka browser web dan ketikan ip server atau nama domainnya yang telah kita konfigurasi"
+	},
+	"menginstall java":{
+		"langkah 1":"kita cek apakah jdk dan jre sudah ada/terinstall belum dengan cara mengetikan pada terminal 'java -version' unutk mengecek version dari jre dan  'javac -version' unutk mengecek version dari jdk nya",
+		"langkah 2":"jika belum terinstall, kita ketikan sudo apt-get install default-jre, Fungsinya adalah untuk menginstal Java Runtime Environment (JRE) yang menjadi bagian dari JDK (Java Development Kit)",
+		"langkah 3":"kemudian kita ketikan lagi sudo apt-get install default-jdk, digunakan untuk menginstal JDK (Java Development Kit) di Ubuntu Server.",
+		"langkah 4":"jika sudah menjalankan langkah 2 dan 3, ulangi langkah 1",
+		"langkah 5":"buat satu folder dengan nama java dan didalam folfer tersebut buat satu file dengan perinta nano helloword.java",
+		"langkah 6":"kemdian ketikan perintah unutk menampilkan tulisan helloword pada file .java yang telah kita buat",
+		"langkah 7":"jika sudah berhasil dibuat, keluar dari nano dan jalankan perintah 'javac HelloWorld.java', berfungsi mengkompilasi kode program HelloWorld yang ditulis menggunakan bahasa pemrograman Java. Ketika kita mengetikkan javac HelloWorld.java, compiler akan membaca kode pada file HelloWorld.java dan membuat file baru dengan ekstensi .class yang berisi kode bytecode yang dapat dijalankan pada Java Virtual Machine (JVM).",
+		"langkah 8":"kemudian jalankan lagi perintah java 'nama file .java kita', dimana perinta ini berfungsi untuk mengeksekusi kode bytecode yang telah dihasilkan melalui perintah javac HelloWorld.java.",
+		"langkah 9":"jika berhasil maka akan muncul tulisan helloword yang tadi kita ketikan"
 	}
 }
