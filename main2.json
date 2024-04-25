@@ -1,0 +1,9 @@
+{
+    "install docker":{
+        "langkah pertama":"mengetikan 'sudo apt-get update' yang berfungis unutk memperbarui informasi tentang paket-paket perangkat lunak yang tersedia",
+        "langkah kedua":"setelah berhasil di update ketikan 'sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin' berfungis untuk menginstall docker dan menginstal beberapa komponen yang terkait dengan Docker",
+        "langkah ketiga":"cek apakah sudah terinstall atau belum dengancara mengetikan 'docker --version' dan jika sudah terinstall maka akan muncul version dari docker",
+        "langkah keempat":"kemudian coba jalankan 'sudo docker run hello-world', jika berhasil maka docker sudah bisa digunakan "
+    }
+
+}
